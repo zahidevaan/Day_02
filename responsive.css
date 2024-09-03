@@ -1,0 +1,161 @@
+/* 
+
+CSS For max-width: 1024px
+
+*/
+
+@media (max-width: 1024px) {
+  .item-wrapper {
+    width: 500px;
+  }
+  .item-5 {
+    margin-right: 10px;
+  }
+  .project {
+    border-radius: 10px;
+    margin-left: -20px;
+  }
+}
+
+/* 
+  
+  CSS For max-width: 768px
+  
+  */
+
+@media (max-width: 768px) {
+  .container {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  .item-wrapper {
+    width: 350px;
+    height: 400px;
+  }
+  .item-wrapper:hover .img-wrapper {
+    position: static;
+    height: 200px;
+  }
+  .item-4 {
+    margin-top: -250px;
+  }
+  .item-title {
+    font-size: 32px;
+  }
+  .item-desc {
+    font-size: 18px;
+  }
+  .small-item-wrapper {
+    width: 250px;
+    height: 250px;
+  }
+  .small-items {
+    padding: 25px;
+  }
+
+  .btn-title {
+    font-size: 16px;
+  }
+  .btn-icon {
+    font-size: 16px;
+  }
+  .item-5 {
+    margin-right: 20px;
+    margin-top: -250px;
+  }
+  .projects-title-wrapper {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .project-title {
+    font-size: 32px;
+  }
+  .projects-row {
+    flex-wrap: wrap;
+  }
+  .project {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .col {
+    padding: 0 15px;
+    width: 100%;
+  }
+  .item-wrapper {
+    width: 100%;
+    height: 350px;
+  }
+  .item-4 {
+    margin-top: 0;
+  }
+  .item-wrapper:hover .img-wrapper {
+    position: static;
+    height: 200px;
+  }
+  .small-item-wrapper {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .item-4 {
+    margin-top: 0;
+  }
+  .item-title {
+    font-size: 26px;
+  }
+  .item-desc {
+    font-size: 16px;
+  }
+  .small-item-wrapper {
+    width: 250px;
+    height: 250px;
+  }
+  .small-items {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .small-img-wrapper {
+    width: 100px;
+    height: 100px;
+  }
+
+  h2.small-item-title {
+    font-size: 26px;
+  }
+
+  .small-item-info h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .btn-title {
+    font-size: 14px;
+  }
+  .btn-icon {
+    font-size: 14px;
+  }
+  .item-wrapper .popup {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, 0);
+    transition: transform 0.4s linear;
+  }
+  .item-5 {
+    margin-right: 0;
+    margin-top: 0px;
+  }
+  .menu-wrapper {
+    width: 100%;
+  }
+}
